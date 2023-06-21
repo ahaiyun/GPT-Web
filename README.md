@@ -10,12 +10,12 @@
 
 ## 演示
 
-- 演示地址：[Web 演示](https://webdev.lightai.io/)
-- 后台地址：https://webdev.lightai.io/admin
-- 管理账号：admin@ai.com
+- 演示地址：[Web 演示](https://gptchat.hyjl.tech/)
+- 后台地址：https://gptchat.hyjl.tech/admin
+- 管理账号：admin@jl.com
 - 管理密码：admin123456
 
-如需帮助请提交 [Issues](https://github.com/vastxie/ChatGPT-Web/issues) 时留下联系方式。
+如需帮助请提交 [Issues](https://github.com/ahaiyun/GPT-Web/tree/master/issues) 时留下联系方式。
 
 ### 页面截图
 
