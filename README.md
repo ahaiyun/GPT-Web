@@ -2,17 +2,17 @@
 
 ![ChatGPT Web](./src/assets/openai.svg)
 
-# ChatGPT Web
+# ChatGPT-Web
 
-基于 [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) 项目二次开发的商业化 ChatGpt 网页应用。
+基于 [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) 项目二次开发的商业化 ChatGPT-Web。
 
 </div>
 
-## 演示
+## 演示站点
 
 - 演示地址：[Web 演示](https://gptchat.hyjl.tech/)
 - 后台地址：https://gptchat.hyjl.tech/admin
-- 管理账号：admin@jl.com
+- 管理账号：jl@admin.com
 - 管理密码：admin123456
 
 如需帮助请提交 [Issues](https://github.com/ahaiyun/GPT-Web/tree/master/issues) 时留下联系方式。
@@ -22,7 +22,6 @@
 ![页面截图1](https://files.catbox.moe/tp963e.png)
 ![页面截图2](https://files.catbox.moe/y5avbx.png)
 ![页面截图3](https://files.catbox.moe/k16jsz.png)
-![页面截图4](https://files.catbox.moe/8o5oja.png)
 
 ## 主要功能
 
