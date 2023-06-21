@@ -26,16 +26,18 @@
 ![1686740458-0db52d5a933bb84](https://github.com/ahaiyun/GPT-Web/assets/105539354/e0e201ae-e74c-45a7-9333-c695655d426d)
 ![1686740520-2d10f2bc38b6529](https://github.com/ahaiyun/GPT-Web/assets/105539354/bc02ed08-f6b9-476c-9a1b-e598606292ed)
 ![1686740521-9c9b4fe2faf8df2](https://github.com/ahaiyun/GPT-Web/assets/105539354/eb2e6516-2e37-4d03-8502-18fb398754e4)
+
+### 欢迎加入群聊：
 ![屏幕截图 2023-06-21 213643](https://github.com/ahaiyun/GPT-Web/assets/105539354/54246107-208e-4197-a53a-327444b4d746)
-
-
+限时赠送66种ChatGPT副业赚钱技巧
 
 ## 主要功能
 
-- 后台管理系统，可对用户，Token，商品，卡密等进行管理
+- 后台管理系统，登陆注册、商品管理、订单管理、卡密管理(二级分销)、用户管理
+- 支持微信支付宝官方支付、易支付、支持用户付费套餐设置
 - 精心设计的 UI，响应式设计
 - 极快的首屏加载速度（~100kb）
-- 支持 DALL·E 模型绘画，GPT4 等应用
+- 支持 DALL·E 模型绘画，GPT3.5和4.0（接口可选官方和第三方API自定义设置）等应用
 - 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
 - 一键导出聊天记录
 - 支持自定义API地址（如：[openAI](https://api.openai.com) / [API2D](https://api2d.com/r/192767)）
