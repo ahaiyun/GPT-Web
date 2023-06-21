@@ -4,7 +4,7 @@
 
 # ChatGPT-Web
 
-基于 [79E/ChatGpt-Web](https://github.com/79E/ChatGpt-Web) 项目二次开发的商业化 ChatGPT-Web。
+基于79E/ChatGpt-Web项目二次开发的商业化 ChatGPT-Web。
 
 </div>
 
