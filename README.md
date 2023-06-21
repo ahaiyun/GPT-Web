@@ -101,7 +101,6 @@ pm2 start index.js --name chatweb --watch
 
 ## `Fork`项目
 git clone https://github.com/ahaiyun/GPT-Web.git
-cd ChatGpt-Web
 
 ## 安装依赖（注意先安装好 node 及 yarn）
 以及 yarn）
