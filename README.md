@@ -45,13 +45,13 @@
 
 - Node 版本: `node` 需要 `^16 || ^18 || ^19` 版本（node >= 16.19.0），可以使用 nvm 管理本地多个 node 版本。
 - ```
-# 查看 node 版本
+#查看 node 版本
 node -v
 
-# 查看 npm 版本
+#查看 npm 版本
 npm -v
 
-# 查看 yarn 版本
+#查看 yarn 版本
 yarn -v
 
 ```
