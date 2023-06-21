@@ -26,10 +26,7 @@
 ![1686740458-0db52d5a933bb84](https://github.com/ahaiyun/GPT-Web/assets/105539354/e0e201ae-e74c-45a7-9333-c695655d426d)
 ![1686740520-2d10f2bc38b6529](https://github.com/ahaiyun/GPT-Web/assets/105539354/bc02ed08-f6b9-476c-9a1b-e598606292ed)
 ![1686740521-9c9b4fe2faf8df2](https://github.com/ahaiyun/GPT-Web/assets/105539354/eb2e6516-2e37-4d03-8502-18fb398754e4)
-
-
-
-
+<img width="212" alt="微信图片_20230621213529" src="https://github.com/ahaiyun/GPT-Web/assets/105539354/783b9070-142b-4d40-8d40-14a86e488206">
 
 ## 主要功能
 
