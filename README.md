@@ -29,7 +29,6 @@
 
 ### 欢迎加入群聊：
 ![屏幕截图 2023-06-21 213643](https://github.com/ahaiyun/GPT-Web/assets/105539354/54246107-208e-4197-a53a-327444b4d746)
-限时赠送66种ChatGPT副业赚钱技巧
 
 ## 主要功能
 
@@ -40,7 +39,7 @@
 - 支持 DALL·E 模型绘画，GPT3.5和4.0（接口可选官方和第三方API自定义设置）等应用
 - 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
 - 一键导出聊天记录
-- 支持自定义API地址（如：[openAI](https://api.openai.com) / [API2D](https://api2d.com/r/192767)）
+- 支持第三方API自定义设置（如：[openAI](https://api.openai.com) / [API2D](https://api2d.com/r/192767)）
 
 ## 运行环境
 
@@ -49,12 +48,6 @@
 - 两个域名: 一个用作前端，一个用作后端跳转
 
 ## 前端
-
-### Vercel 部署
-
-如果你将其托管在自己的 Vercel 服务器上，可点击 deploy 按钮来开始你的部署！
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vastxie/ChatGpt-Web)
 
 **环境变量**
 
@@ -108,6 +101,15 @@ cd server
 pm2 start index.js --name chatweb --watch
 ```
 新建一个网站，ssl验证后，反向代理 `http://127.0.0.1:3200`(可在后端配置中自行修改端口)
+
+## 🎯 部署
+> 直接将`WEB`项目打包好的 `dist` 目录上传到服务器即可。注意服务器IP地址位置！
+
+### Vercel 部署
+
+如果你将其托管在自己的 Vercel 服务器上，可点击 deploy 按钮来开始你的部署！
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vastxie/ChatGpt-Web)
 
 ## 更多
 
