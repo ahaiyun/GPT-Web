@@ -54,7 +54,7 @@ npm -v
 查看 yarn 版本:
 yarn -v
 
-```
+
 - 数据库: MYSQL + Redis
 - 两个域名: 一个用作前端，一个用作后端跳转
 
@@ -62,13 +62,13 @@ yarn -v
 
 **环境变量**
 
-```
+
 1. 安装 nodejs 和 yarn具体细节请询问 ChatGPT
 2. 执行 `yarn install` 即可
 3. web项目开发 `yarn dev:web`
 4. 服务端项目开发 `yarn dev`
 5. 打包项目 `yarn build`
-```
+
 
 ### 后端
 
@@ -98,9 +98,9 @@ pm2 start index.js --name chatweb --watch
 
 ### 服务器部署
 
-```
-## 拉取项目
-git clone https://github.com/vastxie/ChatGpt-Web.git
+
+## `Fork`项目
+git clone https://github.com/ahaiyun/GPT-Web.git
 cd ChatGpt-Web
 
 ## 安装依赖（注意先安装好 node 及 yarn）
@@ -111,7 +111,7 @@ yarn install
 yarn build
 
 将打包好的 dist 目录上传到服务器，将网站目录指向 dist 文件夹即可
-```
+
 
 需额外在伪静态中添加
 ```
