@@ -44,45 +44,30 @@
 ## 运行环境
 
 - Node 版本: `node` 需要 `^16 || ^18 || ^19` 版本（node >= 16.19.0），可以使用 nvm 管理本地多个 node 版本。
+- ```
+# 查看 node 版本
+node -v
+
+# 查看 npm 版本
+npm -v
+
+# 查看 yarn 版本
+yarn -v
+
+```
 - 数据库: MYSQL + Redis
 - 两个域名: 一个用作前端，一个用作后端跳转
 
-## 前端
+### 前端
 
 **环境变量**
 
 ```
-后端地址
-VITE_APP_REQUEST_HOST: https://server.lightai.io
-
-APP 名称&Logo
-VITE_APP_TITLE: ChatWeb
-VITE_APP_LOGO: https://image.lightai.io/icon/logo.svg
-```
-
-
-### 服务器部署
-
-```
-## 拉取项目
-git clone https://github.com/vastxie/ChatGpt-Web.git
-cd ChatGpt-Web
-
-## 安装依赖（注意先安装好 node 及 yarn）
-以及 yarn）
-yarn install
-
-## 打包
-yarn build
-
-将打包好的 dist 目录上传到服务器，将网站目录指向 dist 文件夹即可
-```
-
-需额外在伪静态中添加
-```
-location / {
-  try_files $uri $uri/ /index.html;
-}
+1. 安装 nodejs 和 yarn具体细节请询问 ChatGPT
+2. 执行 `yarn install` 即可
+3. web项目开发 `yarn dev:web`
+4. 服务端项目开发 `yarn dev`
+5. 打包项目 `yarn build`
 ```
 
 ### 后端
@@ -110,6 +95,30 @@ pm2 start index.js --name chatweb --watch
 如果你将其托管在自己的 Vercel 服务器上，可点击 deploy 按钮来开始你的部署！
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vastxie/ChatGpt-Web)
+
+### 服务器部署
+
+```
+## 拉取项目
+git clone https://github.com/vastxie/ChatGpt-Web.git
+cd ChatGpt-Web
+
+## 安装依赖（注意先安装好 node 及 yarn）
+以及 yarn）
+yarn install
+
+## 打包
+yarn build
+
+将打包好的 dist 目录上传到服务器，将网站目录指向 dist 文件夹即可
+```
+
+需额外在伪静态中添加
+```
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
 
 ## 更多
 
