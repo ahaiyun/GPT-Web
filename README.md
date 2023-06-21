@@ -20,8 +20,16 @@
 ### 页面截图
 
 ![页面截图1](https://files.catbox.moe/tp963e.png)
-![页面截图2](https://files.catbox.moe/y5avbx.png)
-![页面截图3](https://files.catbox.moe/k16jsz.png)
+![页面截图![1686740335-46f959d0eb26a25](https://github.com/ahaiyun/GPT-Web/assets/105539354/0a859300-085a-4b13-9c65-e8488326872f)
+2](https://files.catbox.moe/y5avbx.png)
+![1686740427-24a471501b79e1f](https://github.com/ahaiyun/GPT-Web/assets/105539354/47ffdfb3-8fb8-439d-9b0e-4e355053d273)
+![1686740458-0db52d5a933bb84](https://github.com/ahaiyun/GPT-Web/assets/105539354/e0e201ae-e74c-45a7-9333-c695655d426d)
+![1686740520-2d10f2bc38b6529](https://github.com/ahaiyun/GPT-Web/assets/105539354/bc02ed08-f6b9-476c-9a1b-e598606292ed)
+![1686740521-9c9b4fe2faf8df2](https://github.com/ahaiyun/GPT-Web/assets/105539354/eb2e6516-2e37-4d03-8502-18fb398754e4)
+
+
+
+
 
 ## 主要功能
 
