@@ -17,8 +17,8 @@ A commercially-viable ChatGpt web application built with React.
 
 ![cover](https://cdn.jsdelivr.net/gh/duogongneng/testuitc/1683604333996c1.png)
 ![cover](https://cdn.jsdelivr.net/gh/duogongneng/testuitc/1683604333960c2.png)
+![屏幕截图 2023-06-21 213643](https://github.com/ahaiyun/GPT-Web/assets/105539354/2735b832-a2d7-4cd8-8663-60e3e0b2b95d)
 
-![群组](https://files.catbox.moe/hqwrq4.png)
 </div>
 
 
