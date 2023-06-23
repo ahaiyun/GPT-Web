@@ -1,150 +1,131 @@
 <div align="center">
-<img src="./src/assets/openai.svg" style="width:64px;height:64px;margin:0 32px" alt="icon"/>
 
-<h1 align="center">ChatGPT Web</h1>
+![ChatGPT Web](./src/assets/openai.svg)
 
-[English](https://github.com/79E/ChatGpt-Web) / 简体中文
+# ChatGPT-Web
 
-A commercially-viable ChatGpt web application built with React.
-
-可部署商业化的 ChatGpt 网页应用。
-
-[Proxy Demo]() / [Business Demo](https://chatgpt79.vercel.app/) / [Issues](https://github.com/79E/ChatGPT-Web/issues) / [Buy Me a Coffee](https://www.buymeacoffee.com/beggar)
-
-[代理（proxy）演示](https://chatgpt79.vercel.app/) / [商业（business）演示](https://aizj.top/) / [反馈](https://github.com/79E/ChatGPT-Web/issues) / [赞助我](https://www.imageoss.com/images/2023/05/06/e38f4a42046a1909773b955c56468d6b83fcd9b5d593c449.jpg)
-
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/79E/ChatGpt-Web)
-
-![cover](https://cdn.jsdelivr.net/gh/duogongneng/testuitc/1683604333996c1.png)
-![cover](https://cdn.jsdelivr.net/gh/duogongneng/testuitc/1683604333960c2.png)
-
-![群组](https://files.catbox.moe/hqwrq4.png)
+基于79E/ChatGpt-Web项目二次开发的商业化 ChatGPT-Web。
 
 </div>
 
+## 演示站点
 
-## 🤖 主要功能
+- 演示地址：[Web 演示](https://gptchat.hyjl.tech/)
+- 后台地址：https://gptchat.hyjl.tech/admin
+- 管理账号：jl@admin.com
+- 管理密码：admin123456
 
-- 用户系统可对使用进行相关限制
-- 精心设计的 UI，响应式设计。
+如需帮助请提交 [Issues](https://github.com/ahaiyun/GPT-Web/tree/master/issues) 时留下联系方式。
+
+### 页面截图
+
+![页面截图1](https://files.catbox.moe/tp963e.png)
+![页面截图![1686740335-46f959d0eb26a25](https://github.com/ahaiyun/GPT-Web/assets/105539354/0a859300-085a-4b13-9c65-e8488326872f)
+2](https://files.catbox.moe/y5avbx.png)
+![1686740427-24a471501b79e1f](https://github.com/ahaiyun/GPT-Web/assets/105539354/47ffdfb3-8fb8-439d-9b0e-4e355053d273)
+![1686740458-0db52d5a933bb84](https://github.com/ahaiyun/GPT-Web/assets/105539354/e0e201ae-e74c-45a7-9333-c695655d426d)
+![1686740520-2d10f2bc38b6529](https://github.com/ahaiyun/GPT-Web/assets/105539354/bc02ed08-f6b9-476c-9a1b-e598606292ed)
+![1686740521-9c9b4fe2faf8df2](https://github.com/ahaiyun/GPT-Web/assets/105539354/eb2e6516-2e37-4d03-8502-18fb398754e4)
+
+### 欢迎加入群聊，一起交流：
+![屏幕截图 2023-06-23 201720](https://github.com/ahaiyun/GPT-Web/assets/105539354/0bd7b708-4eed-4921-9076-ad72cb3d3c88)
+
+
+## 主要功能
+
+- 后台管理系统，登陆注册、商品管理、订单管理、卡密管理(二级分销)、用户管理
+- 支持微信支付宝官方支付、易支付、支持用户付费套餐设置
+- 精心设计的 UI，响应式设计
 - 极快的首屏加载速度（~100kb）
+- 支持 DALL·E 模型绘画，GPT3.5和4.0（接口可选官方和第三方API自定义设置）等应用
 - 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
-- 一键导出聊天记录，完整的 Markdown 支持
-- 支持自定义API地址（如：[openAI](https://api.openai.com) / [API2D](https://api2d.com/r/192767)）
-## 🎮 开始使用
-**Node 环境**
+- 一键导出聊天记录
+- 支持第三方API自定义设置（如：[openAI](https://api.openai.com) / [API2D](https://api2d.com/r/192767)）
 
-`node` 需要 `^16 || ^18 || ^19` 版本（node >= 16），可以使用 nvm 管理本地多个 node 版本。
+## 运行环境
 
-```
-# 查看 node 版本
+- Node 版本: `node` 需要 `^16 || ^18 || ^19` 版本（node >= 16.19.0），可以使用 nvm 管理本地多个 node 版本。
+- ```
+查看 node 版本:
 node -v
 
-# 查看 npm 版本
+查看 npm 版本:
 npm -v
 
-# 查看 yarn 版本
+查看 yarn 版本:
 yarn -v
 
+
+- 数据库: MYSQL + Redis
+- 两个域名: 一个用作前端，一个用作后端跳转
+
+### 前端
+
+**环境变量**
+
+
+1. 安装 nodejs 和 yarn具体细节请询问 ChatGPT
+2. 执行 `yarn install` 即可
+3. web项目开发 `yarn dev:web`
+4. 服务端项目开发 `yarn dev`
+5. 打包项目 `yarn build`
+
+
+### 后端
+
+导入 MySQL 数据库文件： `sql/chatgpt.sql`
+
+在 `server/config/index.js` 中修改 `后端端口` `数据库` `邮箱` 等配置
+
 ```
+##安装 pm2 管理器
+sudo npm install pm2 -g
 
-**1.先 `Fork` 本项目，然后克隆到本地。**
+cd server
+
+#### 启动进程
+pm2 start index.js --name chatweb --watch
 ```
-git clone https://github.com/79E/ChatGpt-Web.git
-```
-
-**2.安装依赖**
-```
-yarn install
-```
-
-**3.运行**
-```
-yarn dev
-```
-
-**4.打包**
-```
-yarn build
-```
-
-
-## ⛺️ 环境变量
-
-> 本项目大多数配置项都通过环境变量来设置。
-
-#### `VITE_APP_REQUEST_HOST` 
-
-请求服务端的`Host`地址。
-
-#### `VITE_APP_TITLE` 
-
-Chat Web 标题名称。
-
-#### `VITE_APP_LOGO` 
-
-Chat Web Logo。
-
-#### `VITE_APP_MODE` 
-
-应用模式可选：商业模式（business）代理模式（proxy）混合模式（mix）
-
-#### `VITE_APP_AI_BASE_URL`
-
-可在内置请求地址设置（如用户未设置自己的key则走这里） 
-
-#### `VITE_APP_AI_KEYS`
-
- Api 请求使用的 key, 支持多个 key，以逗号分隔（,）
-
-## 🚧 开发
-
-> 强烈不建议在本地进行开发或者部署，由于一些技术原因，很难在本地配置好 OpenAI API 代理，除非你能保证可以直连 OpenAI 服务器。
-
-#### 本地开发
-
-1. 安装 nodejs 和 yarn，具体细节请询问 ChatGPT；
-2. 执行 `yarn install && yarn dev` 即可。
-
-#### 服务端
-
-1. 目前服务端还不完善所以暂时未开源
-2. 前端请求服务端的 [接口文档](https://console-docs.apipost.cn/preview/dcf9a900ac5a1154/00eeb0b3f589d8e6) 你们可以按照这个接口文档进行开发
+新建一个网站，ssl验证后，反向代理 `http://127.0.0.1:3200`(可在后端配置中自行修改端口)
 
 ## 🎯 部署
-> 直接将打包好的 `dist` 目录上传到服务器即可。WEB项目暂时不直接访问 OpenAI API 所有不要求服务器地址。
+> 直接将`WEB`项目打包好的 `dist` 目录上传到服务器即可。注意服务器IP地址位置！
 
-### Vercel
+### Vercel 部署
+
 如果你将其托管在自己的 Vercel 服务器上，可点击 deploy 按钮来开始你的部署！
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/79E/ChatGpt-Web)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ahaiyun/GPT-Web/tree/master)
 
-<details>
- <summary>设置 Vercel 的指导</summary>
-
-1. 前往 [vercel.com](https://vercel.com/)
-1. 点击 `Log in`
-   ![](https://files.catbox.moe/tct1wg.png)
-1. 点击 `Continue with GitHub` 通过 GitHub 进行登录
-   ![](https://files.catbox.moe/btd78j.jpeg)
-1. 登录 GitHub 并允许访问所有存储库（如果系统这样提示）
-1. Fork 这个仓库
-1. 返回到你的 [Vercel dashboard](https://vercel.com/dashboard)
-1. 选择 `Import Project`
-   ![](https://files.catbox.moe/qckos0.png)
-1. 选择 `Import Git Repository`
-   ![](https://files.catbox.moe/pqub9q.png)
-1. 选择 root 并将所有内容保持不变，并且只需添加名为 PAT_1 的环境变量（如图所示），其中将包含一个个人访问令牌（PAT），你可以在[这里](https://github.com/settings/tokens/new)轻松创建（保留默认，并且只需要命名下，名字随便）
-   ![](https://files.catbox.moe/0ez4g7.png)
-1. 点击 deploy，这就完成了，查看你的域名就可使用 API 了！
-
-</details>
+### 服务器部署
 
 
-## 🧘 贡献者
+## `Fork`项目
+git clone https://github.com/ahaiyun/GPT-Web.git
 
-[见项目贡献者列表](https://github.com/79E/ChatGPT-Web/graphs/contributors)
+## 安装依赖（注意先安装好 node 及 yarn）
+以及 yarn）
+yarn install
 
-## 📋 开源协议
+## 打包
+yarn build
 
-[![License MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/79E/ChatGpt-Web/blob/master/license)
+将打包好的 dist 目录上传到服务器，将网站目录指向 dist 文件夹即可
+
+
+需额外在伪静态中添加
+```
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
+
+## 更多
+
+关于 `node` `yarn` `pm2` 以及 Vercle 的一些设置可以自行搜索或向[GPT](https://ai.ligthai.io) 提问
+
+## 贡献者
+感谢项目原作者 [79E](https://github.com/79E) 以及所有的 [项目贡献者](https://github.com/ahaiyun/GPT-Web/tree/master/graphs/contributors)
+
+## 开源协议
+[![License MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/vastxie/ChatGpt-Web/blob/master/license)
