@@ -42,7 +42,7 @@ const web = [
     message: '账户余额和充值套餐记录'
   },
   // {
-  //   path: 'https://github.com/79E/ChatGpt-Web',
+  //   path: 'https://github.com/ahaiyun/GPT-Web',
   //   name: '项目地址',
   //   icon: <GithubOutlined />,
   //   message: '免费开源可商业化AiWeb项目'
@@ -145,7 +145,7 @@ const admin = {
 		icon: <NotificationFilled />
     },
     {
-      path: 'https://github.com/79E/ChatGpt-Web',
+      path: 'https://github.com/ahaiyun/GPT-Web',
       name: 'Github',
       icon: <GithubFilled />
     }
