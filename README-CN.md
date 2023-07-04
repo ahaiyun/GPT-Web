@@ -28,7 +28,7 @@
 ![1686740521-9c9b4fe2faf8df2](https://github.com/ahaiyun/GPT-Web/assets/105539354/eb2e6516-2e37-4d03-8502-18fb398754e4)
 
 ### 欢迎加入群聊，一起交流：
-![屏幕截图 2023-06-28 084807](https://github.com/ahaiyun/GPT-Web/assets/105539354/7eddf164-a11f-4af6-a6eb-5a299f46b673)
+![屏幕截图 2023-07-04 193721](https://github.com/ahaiyun/GPT-Web/assets/105539354/5780f633-ee19-4ad6-9225-9b3408bcfdc6)
 
 
 ## 主要功能
