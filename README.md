@@ -125,7 +125,7 @@ location / {
 关于 `node` `yarn` `pm2` 以及 Vercle 的一些设置可以自行搜索或向[GPT](https://ai.ligthai.io) 提问
 
 ## 贡献者
-感谢项目原作者 [79E](https://github.com/79E) 以及所有的 [项目贡献者](https://github.com/ahaiyun/GPT-Web/tree/master/graphs/contributors)
+感谢项目原作者 [79E](https://github.com/) 以及所有的 [项目贡献者](https://github.com/ahaiyun/GPT-Web/tree/master/graphs/contributors)
 
 ## 开源协议
 [![License MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/vastxie/ChatGpt-Web/blob/master/license)
