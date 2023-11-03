@@ -9,7 +9,6 @@
 </div>
 
 ## 演示站点
-[这里](https://chat.openai.com/api/auth/session)
 - 演示地址：[Web 演示](https://gptchat.hyjl.tech/)
 - 后台地址：https://gptchat.hyjl.tech/admin
 - 管理账号：jl@admin.com
